@@ -1,4 +1,4 @@
-while True:
+
     import math
     c = "CALCULADORA"
     print("\n{:=^20}".format(c))
