@@ -21,5 +21,5 @@ while True:
     elif operacao == "-%":print("resultado: ", x - por1)
     else:print("erro, operacao invalida")
 
-    c = input("Deseja continuar?: ")
+    c = input("Deseja repetir?: ")
     if c == "não":break
