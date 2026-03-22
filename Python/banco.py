@@ -39,6 +39,7 @@ while True:
         print("\nOperacao invalida")
 
     #loop
+    
     print("\nAperte 1 para repetir")
     print("Aperte 2 para sair")
 
