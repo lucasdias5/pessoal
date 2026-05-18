@@ -35,24 +35,26 @@ while True:
 
     #processamento e saida
 
-    if operacao == "+":
-        print("resultado: ", soma)
-    elif operacao == "-":
-        print("resultado: ", subtracao)
-    elif operacao == "*":
-        print("resultado:", multiplicacao)
-    elif operacao == "/":
-        print("resultado: ", divisao)
-    elif operacao == "potencia":
-        print("resultado: ", potencia)
-    elif operacao == "%":
-        print("resultado: ", porcentagem)
-    elif operacao == "+%":
-        print("resultado: ", soma_porcentagem)
-    elif operacao == "-%":
-        print("resultado: ", subtracao_porcentagem)
-    else:
-        print("Erro: operacao invalida")
+    match operacao:
+        case "+":
+            print("O resultado é: ", soma)
+        case "-":
+            print("O resultado é: ", subtracao)
+        case "*":
+            print("O resultado é: ", multiplicacao)
+        case "/":
+            print("O resultado é: ", divisao)
+        case "^":
+            print("O resultado é: ", potencia)
+        case "%":
+            print("O resultado é: ", porcentagem)
+        case "+%":
+            print("O resultado é: ", soma_porcentagem)
+        case "-%":
+            print("O resultado é: ", subtracao_porcentagem)
+        case _:
+            print("Erro: Operação inválida.")
+
 
     #loop
 
